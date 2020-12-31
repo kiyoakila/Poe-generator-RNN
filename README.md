@@ -1,48 +1,11 @@
-# ShakespeareRNN
+# Poe-RNN
 
-In Andrej Karpathy's excellent blog post [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) he describes training an LSTM model on the collected works of Shakespeare to see what it produces. That sounded like fun so I thought I'd give it a try.
+In Andrej Karpathy's excellent blog post [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) he describes training an LSTM model on the collected works of Edgar Allen Poe to see what it produces. That sounded like fun so I thought I'd give it a try.
 
 This is a character-level recurrent network, so it has no pre-conceived knowledge of English words and can only output one character at a time. At the beginning of training, all that comes out of the net is random gibberish, but as training progesses, language constructs begin to emerge--from groupings of letters to real words to sentences. Interestingly, the net isn't just learning to copy the training dataset--the sentences it outputs are not found in Shakespeare's work at all. Here is a sample of its output:
 
 ```   
-        Enter LA PUCENTA'S councillow
-
-KING JOHN. 'Tis not evenly and nan hand
-In the honours of Suffolk's imprisonment;
-Four duty of Count, sing in't.                                 Exit ambitious.
-ANTONY. That hour, beshrew my boy, sweat? Women see,
-the a heels will be a present solemnity;
-If the time is offer his own princely case!
-SHALLOW. I fear you know me there, not the prey piece- lest you
-had her nothing and come where think to be my bed with a together.
-SHALLOW. Alike, you that stand in me
-Appointed upon to guard, take it, our old parator
-Up together, I do noise me, I thunder.
-KING RICHARD. O, tell me, my lord,
-I'll speak you they but put and see their brining
-That so wisely with bating, and
-Were the hisbond's ears of me. Sound love.
-I am spriel'd, this in your counterfeilence
-to run thee to thine offend, or the Eagle
-Which opinion'd I believe thee with thee for;
-No faithful dhoulds, if skill would awake
-From form, and so young manner vow,
-If you priviled pleady in delight-
-Though the more we phrase, lethare at the tenal
-Cannot with what breed son of Caliban
-And turn and devoted by mine eyes.
-Ghost put up in the himself; 'It comes too it. Heaven shallow
-I reason.
-NORFOL. Make you dispatch'd, my commanded gold,
-That all of paids does refuse, his
-Soothsails can maich?
-CHIEF JUSTICE. To remember me; why shall I play the Duke
-Shall take lost.
-BRUTUS. Nothing do good news.
-But in your poor pen.
-LEONTES. And good power; thy thoughts shall give
-Young-gentle shame wherein you gladly
-Enough of sound, Master Shence.                                                  Exeunt
+A getting the ebony human archurness of the middle was,jutted a hope, yet I am not only residetion of them, was somewhat jeferous Vane where the undary like the blood-Vilips. On the enormous, M. X. Masonvour in the liviary at all, I could not no building had been great, in a view of rich to which it had scrutinuted on several artisopens, than it may glad at so how-dolitianie its stationed him in the way of yer, and more than all the main delight having giver, instant he suddenly called to find a small wassage and October! I now dissenteed, from his thing, partly, to utter completely corpor, yet fancies are skeppinating in the person that the bland threw the animal other attractions.
 ```
 
 ### LSTM Model
