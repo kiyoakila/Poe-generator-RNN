@@ -9,7 +9,7 @@ This is a character-level recurrent network, so it has no pre-conceived knowledg
 
 ### LSTM Model
 
-For this learning task, I used a 3-layer Long Short Term Memory (LSTM) model with a hidden size of 512 nodes at each layer. Since the Shakespeare dataset is relatively small, overfitting can be an issue, but my main consideration for the model size was keeping the training time reasonable. Larger models would most likely perform better, albeit with diminishing returns. I trained with the Adam optimizer with a learning rate of 5e-3. I used 300-dimensional character embeddings from [this repo](https://github.com/minimaxir/char-embeddings). 
+For this learning task, I used a 3-layer Long Short Term Memory (LSTM) model with a hidden size of 512 nodes at each layer. Since the test dataset is relatively small, overfitting can be an issue, but my main consideration for the model size was keeping the training time reasonable. Larger models would most likely perform better, albeit with diminishing returns. I trained with the Adam optimizer with a learning rate of 5e-3. I used 300-dimensional character embeddings from [this repo](https://github.com/minimaxir/char-embeddings). 
 
 ### Running the code
 
