@@ -4,9 +4,9 @@ In Andrej Karpathy's excellent blog post [The Unreasonable Effectiveness of Recu
 
 This is a character-level recurrent network, so it has no pre-conceived knowledge of English words and can only output one character at a time. At the beginning of training, all that comes out of the net is random gibberish, but as training progesses, language constructs begin to emerge--from groupings of letters to real words to sentences. Interestingly, the net isn't just learning to copy the training dataset--the sentences it outputs are not found in Shakespeare's work at all. Here is a sample of its output:
 
-```   
-A getting the ebony human archurness of the middle was,jutted a hope, yet I am not only residetion of them, was somewhat jeferous Vane where the undary like the blood-Vilips. On the enormous, M. X. Masonvour in the liviary at all, I could not no building had been great, in a view of rich to which it had scrutinuted on several artisopens, than it may glad at so how-dolitianie its stationed him in the way of yer, and more than all the main delight having giver, instant he suddenly called to find a small wassage and October! I now dissenteed, from his thing, partly, to utter completely corpor, yet fancies are skeppinating in the person that the bland threw the animal other attractions.
-```
+  
+> A getting the ebony human archurness of the middle was,jutted a hope, yet I am not only residetion of them, was somewhat jeferous Vane where the undary like the blood-Vilips. On the enormous, M. X. Masonvour in the liviary at all, I could not no building had been great, in a view of rich to which it had scrutinuted on several artisopens, than it may glad at so how-dolitianie its stationed him in the way of yer, and more than all the main delight having giver, instant he suddenly called to find a small wassage and October! I now dissenteed, from his thing, partly, to utter completely corpor, yet fancies are skeppinating in the person that the bland threw the animal other attractions.
+
 
 ### LSTM Model
 
